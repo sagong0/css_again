@@ -1,0 +1,103 @@
+body {
+  /* background: url(../image/login.png); */
+}
+
+.sub_area {
+  display: flex;
+  width: 1265px;
+  height: 100px;
+  /* background: red;
+  opacity: 0.1; */
+  margin-top: 20px;
+  margin-left: 330px;
+  /* border-bottom: 1px solid #6f4ffd; */
+}
+
+.sub_text {
+  width: 800px;
+  height: 98px;
+  background: red;
+  opacity: 0.4;
+  line-height: 40px;
+  text-indent: 32px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.sub_text > h2 {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.sub_img {
+  width: 458px;
+  height: 98px;
+  background: blue;
+  opacity: 0.3;
+}
+.sub_img img {
+  width: 218px;
+  height: 100%;
+  float: right;
+}
+
+.body_wrap {
+  display: flex;
+}
+
+/* 왼쪽 멤버십 어사이드 */
+
+.left_aside {
+  width: 256px;
+  height: 245px;
+  /* background: yellow;
+  opacity: 0.2; */
+  margin-left: 330px;
+}
+
+/* -------------main부분------------ */
+.cont_area {
+  width: 1005px;
+  height: 850px;
+  /* background-color: rgb(78, 211, 73);
+  opacity: 0.3; */
+  float: left;
+}
+/* -------------------cont_top0------------ */
+.cont_top {
+  display: flex;
+  justify-content: space-between;
+  width: 952px;
+  height: 88px;
+  margin-left: 50px;
+  border-bottom: 1px solid #ebebeb;
+  line-height: 88px;
+  /* background: pink;
+  opacity: 0.2; */
+}
+.location {
+  /* width: 300px; */
+  height: 32px;
+  background-color: #2d78da;
+}
+.location > img {
+  width: 20px;
+  height: 18px;
+}
+
+.cont_mid {
+  width: 952px;
+  height: 143px;
+  margin-left: 50px;
+  border-bottom: 2px solid #2d78da;
+  /* background: yellow;
+  opacity: 0.2; */
+}
+.cont_bott {
+  width: 952px;
+  height: 335px;
+  margin-left: 50px;
+  border-bottom: 1px solid #ebebeb;
+  background-color: blanchedalmond;
+  opacity: 0.3;
+}
